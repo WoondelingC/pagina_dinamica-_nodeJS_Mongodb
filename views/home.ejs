@@ -1,0 +1,61 @@
+<%- include('./templates/template.ejs') %> 
+  <body>
+    <main>
+      <form class="container" method="post" action="/">
+        <h1 class="title">Juego de Dados</h1>
+        <div class="inputs">
+          <div>
+            <span class="span-inputs">Jugador 1</span>
+            <input
+              type="text"
+              name="gamer"
+              required
+            />
+            <span class="span-inputs">apuesta</span>
+            <input
+                type="number"
+                name="bet"
+                class="bet"
+                required
+            />
+          </div>
+          <hr/>
+
+          <div class="inputs">
+            <div>
+              <span class="span-inputs">Jugador 2</span>
+              <input
+                type="text"
+                name="gamer"
+                required
+              />
+              <span class="span-inputs">apuesta</span>
+              <input
+                type="number"
+                name="bet"
+                class="bet"
+                required
+              />
+            </div>
+            <hr/>
+            <div class="inputs">
+              <div>
+                <span class="span-inputs">Jugador 3</span>
+                <input
+                  type="text"
+                  name="gamer"
+                  required
+                />
+                <span class="span-inputs">apuesta</span>
+                <input
+                type="number"
+                name="bet"
+                class="bet"
+                required
+                />
+              </div>
+        <button type="submit" class="button-play">Play</button>
+      </form>
+    </main>
+  </body>
+</html>

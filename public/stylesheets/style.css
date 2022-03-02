@@ -1,0 +1,81 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Lobster', cursive;
+  font-family: 'Roboto', sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+.container{
+  text-align: center;
+  background: rgb(131,58,180);
+  background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(144,141,19,1) 50%, rgba(103,252,69,1) 100%);
+  width: 400px;
+  height: 80vh;
+  border-radius: 30px;
+  margin: 5% auto;
+}
+.title{
+  padding: 10px;
+  margin-bottom: 30px;
+  text-shadow: 3px 3px 2px #aaaaaa;
+}
+.inputs{
+  margin-top: 5vh;
+}
+.inputs .span-inputs{
+  display: grid;
+  text-shadow: 1px -1px 2px #e3e9e9;
+  font-weight: 700;
+  color: rgb(117, 11, 11);
+}
+.inputs input{
+  margin-bottom: 10px;
+  padding: 5px;
+  border-radius: 30px;
+  border: none;
+}
+.inputs .bet{
+  width: 5vw;
+}
+.button-play{
+  margin-top: 20px;
+  background-color: red;
+  border: none;
+  border-radius: 30px;
+  padding: 8px;
+  width: 10vw;
+  color: white;
+  font-size: 15px;
+  transition: 0.8s;
+}
+.button-play:hover{
+  background-color: rgb(80, 255, 27);
+  font-weight: bold;
+  color: rgb(0, 0, 0);
+  border: 1px solid rgb(114, 112, 112);
+  transition: 0.8s;
+  cursor: pointer;
+}
+
+/*View gamers*/
+.container-gamers{
+  background: rgb(131,58,180);
+  background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(144,141,19,1) 50%, rgba(103,252,69,1) 100%);
+  width: 400px;
+  height: 52vh;
+  border-radius: 30px;
+  margin: 5% auto;
+  text-align: center;
+}
+.dado{
+  margin-top: 18px;
+  background: aqua;
+  border: 1px solid white;
+}
